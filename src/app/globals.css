@@ -31,3 +31,20 @@ body {
     text-wrap: balance;
   }
 }
+
+/* import from Aceternity UI */
+.no-visible-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.no-visible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.manual {
+  box-shadow: rgba(231, 222, 222, 0.56) 0px 22px 70px 4px;
+}
+.manual:hover {
+  box-shadow: rgb(215, 232, 250) 0px 20px 30px -10px;
+}
